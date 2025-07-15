@@ -1,3 +1,6 @@
+body{
+    font-family: "Times New Roman";
+}
 .header-image{
     background: url(../images/Hero-bg.png);
     background-size: cover;
@@ -14,7 +17,7 @@
     color: #4e47ff;
     font-size: 35px;
     margin-top: 15px;
-    font-weight: bolder;
+    font-weight: bold;
     text-decoration: none;
 }
 .btn{
@@ -34,4 +37,20 @@
     margin: auto;
     text-align: center;
     margin-top: 150px;
+}
+.action-container{
+    width: 1140px;
+    height: 328px;
+    margin: 50px auto;
+    display: flex;
+    justify-content: space-between;
+}
+.action-content{
+    margin-top: 40px;
+    padding: 10px;
+}
+.action-container img{
+    border-radius: 40px;
+    width: 403px;
+    height: 328px;
 }
